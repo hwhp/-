@@ -136,10 +136,16 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 		.b-middle__form.form-2 dl dt{padding:75px 0 31px}			
 			.b-middle__form.form-2 dl dt h2{font-family:'RotondaC-Bold';font-size:25px;line-height:34px;color:#f15a22;text-transform:uppercase}			
 			.b-middle__form.form-2 dl dt h2 span{display:block;text-transform:none}			
-		.b-middle__form.form-2 dl dd{padding:0 0 31px}			
+		.b-middle__form.form-2 dl dd{padding:0 0 31px;position:relative}			
 		.b-middle__form.form-2 dl dd:last-child{text-align:right;padding:0px 0 57px}			
-			.b-middle__form.form-2 dl dd input{display:block;border:2px solid #acacac;border-radius:61px;width:100%;box-sizing:border-box;padding:0 28px;font-size:16px;line-height:62px;height:61px}			
+			.b-middle__form.form-2 dl dd input{display:block;border:2px solid #acacac;border-radius:61px;width:100%;box-sizing:border-box;padding:0 28px;font-size:16px;line-height:62px;height:61px}		
+			.b-middle__form.form-2 dl dd.danger input{border-color:#ff0066}		
+			.b-middle__form.form-2 dl dd.danger input::placeholder{color:#ff0066}		
+			.b-middle__form.form-2 dl dd.danger:after{content:'!';width:30px;height:30px;background:#ff0066;position:absolute;right:20px;top:15px;color:#fff;border-radius:30px;line-height:33px;text-align:center;font-size:20px;font-family:'RotondaC-Bold'}		
+			.b-middle__form.form-2 dl dd.danger:nth-child(5):after{display:none}		
 			.b-middle__form.form-2 dl dd textarea{display:block;border:2px solid #acacac;border-radius:30px;width:100%;box-sizing:border-box;padding:20px 26px;font-size:16px;line-height:19px;height:120px;resize:none}
+			.b-middle__form.form-2 dl dd.danger textarea{border-color:#ff0066}
+			.b-middle__form.form-2 dl dd.danger textarea::placeholder{color:#ff0066}
 			.b-middle__form.form-2 dl dd .big-btn span{padding:20px 70px 15px}
 
 			
