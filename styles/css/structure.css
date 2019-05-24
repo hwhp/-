@@ -433,6 +433,8 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 	.b-video{padding:99px 0 32px;background:url(../images/video_bg_2.png) 95% 18% no-repeat, url(../images/video_bg_1.png) 0 18% no-repeat;background-size:98px auto, 67px auto}
 	.b-video-i{width:auto;height:170px;box-shadow:none;border-radius:0;background:#000}
 
+	.b-middle__form.form-2 dl dd.danger:after{right:24px;top:8px}
+
 }
 
 

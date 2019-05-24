@@ -1,5 +1,50 @@
 $('document').ready(function() {
 
+
+function slider(className) {
+    $('.form-item figure').hide();
+    $(className).find('figure').show();
+  }
+
+  $('#value-1').change(function() {
+    if (window.innerWidth < 1024) slider('.item-1');    
+  });
+
+  $('#value-2').change(function() {
+    if (window.innerWidth < 1024) slider('.item-2');
+  });
+
+  $('#value-3').change(function() {
+    if (window.innerWidth < 1024) slider('.item-3');
+  });
+
+  if (window.innerWidth < 1024) {
+    var isMobile = true;
+    $('.form-item figure').hide();
+    slider('.item-1');
+  } else {
+    var isMobile = false;
+  }
+
+  if ((window.innerWidth < 1024) && (!isMobile)) {
+    $('.form-item figure').hide();
+    slider('.item-1');
+  }
+
+  $(window).resize(function () {
+    if ((window.innerWidth < 1024) && (!isMobile)) {
+      $('.form-item figure').hide();
+      slider('.item-1');
+      isMobile = true;
+    } else if ((window.innerWidth < 1024) && (isMobile)) {
+
+    } else {
+      $('.form-item figure').show();
+      isMobile = false;
+    }
+  })
+
+ 
 	
 //
 $('.b-middle__form.form-2 dl dd .big-btn').click(function () {
