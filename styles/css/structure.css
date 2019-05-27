@@ -46,7 +46,7 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 /*Top
 *******************************************************************************************************************************/
 
-.b-top{position:relative;background:#b9e5fb}
+.b-top{position:relative;background:#b9e5fb;min-height:620px}
 
 .b-top-1{max-width:1024px;margin:0 auto;padding:0 0 22px}
 	.b-logo{float:left;padding:19px 158px 61px 84px;background:url(../images/logo_bg.png) 0 -10px no-repeat;background-size:360px 140px}
@@ -78,9 +78,9 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 .b-middle__list li figure{padding:0 0 33px}
 .b-middle__list li figcaption{font-weight:bold;font-size:26px;line-height:30px;font-family:'RotondaC-Bold'}
 
-.b-middle__article{background:url(../images/art_bg_2.png) 0 0 no-repeat, url(../images/art_bg_4.png) 0 0 no-repeat;background-size:220px 213px, 243px 260px}
+/*.b-middle__article{background:url(../images/art_bg_2.png) 0 0 no-repeat, url(../images/art_bg_4.png) 0 0 no-repeat;background-size:220px 213px, 243px 260px}*/
 .b-middle__article-i{max-width:1024px;margin:0 auto;position:relative}
-	.b-middle__article-i figure{float:left;width:255px;background:url(../images/art_bg_1.png) 0 10px no-repeat;background-size:403px 272px;padding:51px 0 0 170px}
+	.b-middle__article-i figure{float:left;width:255px;background:url(../images/art_bg_1.png) 0 10px no-repeat;background-size:403px 272px;padding:51px 0 21px 170px}
 		.b-middle__article-i figure img{width:210px;height:210px;border-radius:210px}
 	.b-middle__article-i div{padding:67px 0 0 425px;background:url(../images/art_bg_3.png) 77% 0 no-repeat;background-size:143px 109px}
 	.b-middle__article-i div h2{font-family:'RotondaC-Bold';padding:0 0 2px;font-size:29px;line-height:31px;}
@@ -156,7 +156,7 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 .b-middle__form.form-2 .form-item.item-1{}
 .b-middle__form.form-2 .form-item.item-2{}
 .b-middle__form.form-2 .form-item.item-3{}
-.b-middle__form.form-2 .form-item.vote p{font-family:'RotondaC-Bold';font-size:20px;line-height:26px;padding:0 53px 0 0;margin:-17px 0 0}
+.b-middle__form.form-2 .form-item.vote p{font-family:'RotondaC-Bold';font-size:20px;line-height:26px;padding:0 53px 0 0;margin:0}
 .b-middle__form.form-2 .form-item strong{font-family:'RotondaC-Bold';font-size:20px;line-height:28px;color:#00aeef}
 
 
@@ -256,6 +256,7 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 *******************************************************************************************************************************/
 @media screen and (max-width: 1024px){
 
+	.b-top{min-height:auto}
 	.b-top-1{width:320px;padding:0 0 12px}
 		.b-logo{width:190px;height:70px;margin:0 -100% 0 0;box-sizing:border-box;background-size:193px auto;padding:13px 0 0 49px;background-position:-1px -5px;}
 			.b-logo img{max-width:67px;height:auto}
