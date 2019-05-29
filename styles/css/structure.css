@@ -10,7 +10,7 @@ button[disabled],input[disabled]{cursor:default}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 
 @font-face {
-  font-family: 'RotondaC';
+  font-family:'RotondaC';
   src: url('../fonts/RotondaC.eot?#iefix') format('embedded-opentype'),  url('../fonts/RotondaC.otf')  format('opentype'),
 	     url('../fonts/RotondaC.woff') format('woff'), url('../fonts/RotondaC.ttf')  format('truetype'), url('../fonts/RotondaC.svg#RotondaC') format('svg');
   font-weight: normal;
@@ -18,10 +18,10 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 }
 
 @font-face {
-  font-family: 'RotondaC-Bold';
+  font-family:'RotondaC';
   src: url('../fonts/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/RotondaC-Bold.otf')  format('opentype'),
 	     url('../fonts/RotondaC-Bold.woff') format('woff'), url('../fonts/RotondaC-Bold.ttf')  format('truetype'), url('../fonts/RotondaC-Bold.svg#RotondaC-Bold') format('svg');
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -33,7 +33,7 @@ a:hover{color:#f15a22;transition:color 0.2s ease-out}
 .icon{display:block;position:absolute;overflow:hidden;font-size:1px;line-height:normal}
 
 .big-btn{margin:0;padding:0;outline:none;border:0;background:transparent}
-	.big-btn span{background:#114b8c;display:inline-block;padding:20px 38px 15px;border-radius:35px;color:#fff;font-weight:bold;font-size:28px;line-height:34px;text-transform:uppercase;font-family:'RotondaC-Bold'}
+	.big-btn span{font-family:'RotondaC';background:#114b8c;display:inline-block;padding:20px 38px 15px;border-radius:35px;color:#fff;font-weight:bold;font-size:28px;line-height:1em;text-transform:uppercase;font-weight:bold}
 	.big-btn:hover span{background:#f15a22;transition:background 0.2s ease-out}
 
 /*Structure
@@ -55,9 +55,9 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 	.b-top-1 .rules{float:right;margin:25px 87px 0 0}
 		
 .b-top-2{position:relative;background:url(../images/top_bg_1.png) 50% 100% no-repeat;background-size:1938px 402px}
-	.b-top-2-i{max-width:1024px;margin:0 auto;padding:0 0 180px;position:relative;background:url(../images/top_bg_3.png) 53px 82% no-repeat;background-size:133px 68px}
-		.b-top-2-i h1{font-size:35px;line-height:40px;padding:0 0 15px 84px;font-family:'RotondaC-Bold';text-transform:uppercase}
-		.b-top-2-i p{font-size:22px;line-height:24px;padding:0 0 66px 84px;font-family:'RotondaC-Bold'}
+	.b-top-2-i{max-width:1024px;margin:0 auto;padding:0 0 190px;position:relative;background:url(../images/top_bg_3.png) 53px 82% no-repeat;background-size:133px 68px}
+		.b-top-2-i h1{font-size:35px;line-height:40px;padding:0 0 15px 84px;text-transform:uppercase}
+		.b-top-2-i p{font-size:22px;line-height:24px;padding:0 0 66px 84px;font-weight:bold}
 		.b-top-2-i .big-img{position:absolute;right:52px;top:-111px;width:546px;height:534px}
 			.b-top-2-i .big-img img{max-width:100%;height:auto}
 		.b-top-2-i .big-btn{margin:0 0 0 84px}
@@ -77,27 +77,27 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 .b-middle__list li:last-child{background:url(../images/mid_bg_2.png) 69% 42% no-repeat;background-size:34px 42px;padding:0 98px 0 0;box-sizing:border-box}
 .b-middle__list li:first-child{padding:0 0 0 104px;box-sizing:border-box}
 .b-middle__list li figure{padding:0 0 33px}
-.b-middle__list li figcaption{font-weight:bold;font-size:26px;line-height:30px;font-family:'RotondaC-Bold'}
+.b-middle__list li figcaption{font-weight:bold;font-size:26px;line-height:30px;font-weight:bold}
 
 /*.b-middle__article{background:url(../images/art_bg_2.png) 0 0 no-repeat, url(../images/art_bg_4.png) 0 0 no-repeat;background-size:220px 213px, 243px 260px}*/
 .b-middle__article-i{max-width:1024px;margin:0 auto;position:relative}
 	.b-middle__article-i figure{float:left;width:255px;background:url(../images/art_bg_1.png) 0 10px no-repeat;background-size:403px 272px;padding:51px 0 21px 170px}
 		.b-middle__article-i figure img{width:210px;height:210px;border-radius:210px}
 	.b-middle__article-i div{padding:67px 0 0 425px;background:url(../images/art_bg_3.png) 77% 0 no-repeat;background-size:143px 109px}
-	.b-middle__article-i div h2{font-family:'RotondaC-Bold';padding:0 0 2px;font-size:29px;line-height:31px;}
-	.b-middle__article-i div span{font-size:23px;line-height:26px;font-weight:bold;color:#f15a22;font-family:'RotondaC-Bold'}
-	.b-middle__article-i div p{font-family:'RotondaC-Bold';padding:20px 0;line-height:24px;font-size:18px}
+	.b-middle__article-i div h2{font-weight:bold;padding:0 0 2px;font-size:29px;line-height:31px;}
+	.b-middle__article-i div span{font-size:23px;line-height:26px;font-weight:bold;color:#f15a22;font-weight:bold}
+	.b-middle__article-i div p{padding:20px 140px 20px 0;line-height:24px;font-size:18px}
 
 .b-middle__form{padding:36px 0 0 0;background:url(../images/form_bg_1.png) 50% 24px no-repeat;background-size:1920px 97px}	
 	.b-middle__form-i{max-width:1024px;margin:0 auto;position:relative;background:url(../images/form_bg_2.png) 0 0 no-repeat;background-size:191px 145px}	
-		.b-middle__form ul{padding:0 0 16px}	
+		.b-middle__form ul{padding:0 0 60px}	
 			.b-middle__form ul li{float:left;width:33.333333333%;text-align:center}	
 			.b-middle__form .form-item{position:relative}
-			.b-middle__form .form-item:hover img{filter: saturate(120%);transition:filter 0.2s ease-out}
+			.b-middle__form .form-item:hover img{}
 			.b-middle__form .form-item.item-1{}
 			.b-middle__form .form-item.item-2{}
 			.b-middle__form .form-item.item-3{}
-				.b-middle__form .form-item img{width:340px;height:320px;filter:saturate(80%);}
+				.b-middle__form .form-item img{width:340px;height:320px}
 				.b-middle__form .form-item.item-1 img{position:relative;left:-2px}
 				.b-middle__form .form-item.item-2 img{position:relative;left:-1px}
 				.b-middle__form .form-item.item-3 img{position:relative}
@@ -107,14 +107,14 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 					.b-middle__form .form-item label figure img{}
 				.b-middle__form .form-item label input{opacity:0;position:absolute;left:0;top:0;display:block;width:100%;height:100%;cursor:pointer}
 				.b-middle__form .form-item label input + span:after{content:' ';display:block;position:absolute;right:36px;bottom:72px;width:52px;height:52px;background:#fff;border:3px solid #00aeef;border-radius:52px;box-sizing:border-box}
-				.b-middle__form .form-item label input + span:before{content:' ';display:block;position:absolute;right:30px;bottom:66px;width:71px;height:71px;background:#fff;border-radius:71px;box-sizing:border-box}
+				.b-middle__form .form-item label input + span:before{content:' ';display:block;position:absolute;right:28px;bottom:66px;width:71px;height:71px;background:#fff;border-radius:71px;box-sizing:border-box}
 				
 				
 				.b-middle__form .form-item label input:checked + span:after{border-width:16px}
-				.b-middle__form .form-item label span{color:#f15a22;font-size:18px;line-height:30px;display:block;font-family:'RotondaC-Bold'}
-				.b-middle__form .form-item label strong{text-transform:uppercase;font-family:'RotondaC-Bold';font-size:21px;display:block;padding:5px 0 0}
+				.b-middle__form .form-item label span{color:#f15a22;font-size:18px;line-height:30px;display:block;font-weight:bold}
+				.b-middle__form .form-item label strong{text-transform:uppercase;font-weight:bold;font-size:21px;display:block;padding:5px 0 0}
 		.b-middle__form div{text-align:center;clear:both}	
-			.b-middle__form div a{font-size:26px;line-height:34px;font-weight:bold;font-family:'RotondaC-Bold'}	
+			.b-middle__form div a{font-size:26px;line-height:34px;font-weight:bold}	
 		.b-middle__form .big-btn{margin:0 0 56px}	
 			.b-middle__form .big-btn span{background:#f15a22;padding:20px 65px 15px}	
 			.b-middle__form .big-btn:hover span{background:#114b8c}	
@@ -137,14 +137,14 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 
 	.b-middle__form.form-2 dl{width:513px;padding:27px 85px 0 0px;text-align:left;float:right}			
 		.b-middle__form.form-2 dl dt{padding:75px 0 31px}			
-			.b-middle__form.form-2 dl dt h2{font-family:'RotondaC-Bold';font-size:25px;line-height:34px;color:#f15a22;text-transform:uppercase}			
+			.b-middle__form.form-2 dl dt h2{font-weight:bold;font-size:25px;line-height:34px;color:#f15a22;text-transform:uppercase}			
 			.b-middle__form.form-2 dl dt h2 span{display:block;text-transform:none}			
 		.b-middle__form.form-2 dl dd{padding:0 0 31px;position:relative}			
 		.b-middle__form.form-2 dl dd:last-child{text-align:right;padding:0px 0 57px}			
 			.b-middle__form.form-2 dl dd input{display:block;border:2px solid #acacac;border-radius:61px;width:100%;box-sizing:border-box;padding:0 28px;font-size:16px;line-height:62px;height:61px}		
 			.b-middle__form.form-2 dl dd.danger input{border-color:#ff0066}		
 			.b-middle__form.form-2 dl dd.danger input::placeholder{color:#ff0066}		
-			.b-middle__form.form-2 dl dd.danger:after{content:'!';width:30px;height:30px;background:#ff0066;position:absolute;right:20px;top:15px;color:#fff;border-radius:30px;line-height:33px;text-align:center;font-size:20px;font-family:'RotondaC-Bold'}		
+			.b-middle__form.form-2 dl dd.danger:after{content:'!';width:30px;height:30px;background:#ff0066;position:absolute;right:20px;top:15px;color:#fff;border-radius:30px;line-height:33px;text-align:center;font-size:20px;font-weight:bold}		
 			.b-middle__form.form-2 dl dd.danger:nth-child(5):after{display:none}		
 			.b-middle__form.form-2 dl dd textarea{display:block;border:2px solid #acacac;border-radius:30px;width:100%;box-sizing:border-box;padding:20px 26px;font-size:16px;line-height:19px;height:120px;resize:none}
 			.b-middle__form.form-2 dl dd.danger textarea{border-color:#ff0066}
@@ -159,18 +159,18 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 .b-middle__form.form-2 .form-item.item-1{}
 .b-middle__form.form-2 .form-item.item-2{}
 .b-middle__form.form-2 .form-item.item-3{}
-.b-middle__form.form-2 .form-item.vote p{font-family:'RotondaC-Bold';font-size:20px;line-height:26px;padding:0 53px 0 0;margin:0}
-.b-middle__form.form-2 .form-item strong{font-family:'RotondaC-Bold';font-size:20px;line-height:28px;color:#00aeef}
+.b-middle__form.form-2 .form-item.vote p{font-weight:bold;font-size:20px;line-height:26px;padding:0 53px 0 0;margin:0}
+.b-middle__form.form-2 .form-item strong{font-weight:bold;font-size:20px;line-height:28px;color:#00aeef}
 
 
 /*Pop-up*/
 .b-pop-up{padding:25px 0 0}
 	.b-pop-up-i{position:relative;text-align:center;padding:134px 0 143px;box-shadow: 1.5px 2.598px 72.2px 3.8px rgba(0, 0, 0, 0.15);background:#fff;border-radius:77px;max-width:940px;margin:0 auto;background:url(../images/pop_bg_1.png) 58px 93% no-repeat, url(../images/pop_bg_2.png) 50px 41px no-repeat, url(../images/pop_bg_3.png) 96% 98% no-repeat;background-size:130px 152px, 75px 57px, 183px 178px}
-		.b-pop-up-i h2{padding:0 0 35px;font-family:'RotondaC-Bold';font-size:34px;line-height:44px;color:#114b8c}
+		.b-pop-up-i h2{padding:0 0 35px;font-weight:bold;font-size:34px;line-height:44px;color:#114b8c}
 		.b-pop-up-i h2 span{text-transform:uppercase}
 		.b-pop-up-i p{}
-		.b-pop-up-i p.c-f15a22{padding:0 0 37px;font-family:'RotondaC-Bold';font-size:29px;line-height:35px;color:#f15a22}
-		.b-pop-up-i p.c-00aeef{padding:0 0 36px;font-family:'RotondaC-Bold';font-size:25px;line-height:35px;color:#00aeef}
+		.b-pop-up-i p.c-f15a22{padding:0 0 37px;font-weight:bold;font-size:29px;line-height:35px;color:#f15a22}
+		.b-pop-up-i p.c-00aeef{padding:0 0 36px;font-weight:bold;font-size:25px;line-height:35px;color:#00aeef}
 		.b-pop-up-i .close{width:62px;height:62px;display:block;position:absolute;top:51px;right:60px;border:3px solid #cccccc;border-radius:62px;overflow:hidden;text-indent:-666px;transform:rotate(45deg)}
 		.b-pop-up-i .close:after{width:40px;height:3px;display:block;position:absolute;top:50%;right:50%;background:#cccccc;box-sizing:border-box;content:' ';margin:-1.5px -20px 0 0;border-radius:3px}
 		.b-pop-up-i .close:before{width:3px;height:40px;display:block;position:absolute;top:50%;right:50%;background:#cccccc;box-sizing:border-box;content:' ';margin:-20px -1.5px 0 0;border-radius:3px}
@@ -218,11 +218,11 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 .b-results .form-item__top{float:left;width:50%;text-align:left;padding:58px 0 0 0}
 .b-results .b-middle__form ul li:nth-child(even) .form-item__top{float:right}
 .b-results .form-item__top .title{font-size:35px;line-height:35px;color:#f15a22}
-.b-results .form-item__top p{font-size:22px;line-height:30px;color:#00aeef;padding:0 0 38px 0;font-family:'RotondaC-Bold'}
+.b-results .form-item__top p{font-size:22px;line-height:30px;color:#00aeef;padding:0 0 38px 0;font-weight:bold}
 .b-results .form-item__top p span{color:#114b8c}
 .b-results .form-item__top dl{}
-.b-results .form-item__top dl dt{font-size:22px;line-height:34px;color:#f15a22;text-transform:uppercase;font-family:'RotondaC-Bold'}
-.b-results .form-item__top dl dd{font-size:22px;line-height:34px;font-family:'RotondaC-Bold'}
+.b-results .form-item__top dl dt{font-size:22px;line-height:34px;color:#f15a22;text-transform:uppercase;font-weight:bold}
+.b-results .form-item__top dl dd{font-size:22px;line-height:34px;font-weight:bold}
 .b-results .b-middle__form .form-item label{padding:19px 0 0;float:right;width:50%;text-align:right}
 .b-results .b-middle__form ul li:nth-child(even) label{float:left;text-align:left}
 .b-results .b-middle__form ul li:nth-child(even) figcaption{float:left}
@@ -329,7 +329,7 @@ body{background:url(../ag_111.png) 50% 0 no-repeat}
 	.b-middle__form ul:after{content:' ';display:block;position:absolute;left:7px;top:108px;width:15px;height:29px;background:url(../images/arr_icon_1.png) 0 0 no-repeat;background-size:100% auto}
 	.b-middle__form ul:before{content:' ';display:block;position:absolute;right:7px;top:108px;width:15px;height:29px;background:url(../images/arr_icon_2.png) 0 0 no-repeat;background-size:100% auto}
 
-	.b-middle__form .form-item label figure:after{content:' ';display:block;position:absolute;right:47px;bottom:8px;width:43px;height:43px;background:#fff;border:3px solid #f15a22;border-radius:43px;box-sizing:border-box;font-size:25px;line-height:43px;color:#f15a22;font-family:'RotondaC-Bold';z-index:2}
+	.b-middle__form .form-item label figure:after{content:' ';display:block;position:absolute;right:47px;bottom:8px;width:43px;height:43px;background:#fff;border:3px solid #f15a22;border-radius:43px;box-sizing:border-box;font-size:25px;line-height:43px;color:#f15a22;font-weight:bold;z-index:2}
 	.b-middle__form .form-item.item-1 label figure:after{content:'1'}
 	.b-middle__form .form-item.item-2 label figure:after{content:'2'}
 	.b-middle__form .form-item.item-3 label figure:after{content:'3'}
